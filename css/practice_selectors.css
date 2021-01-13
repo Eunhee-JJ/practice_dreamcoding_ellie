@@ -1,0 +1,46 @@
+
+
+/* selector {
+    property: value;
+  } */
+  
+  
+  * {
+    color: green;
+  }
+  
+  li {
+    color: blue;
+    //태그에 가까울 수록 우선순위가 높음
+  }
+  
+  li#special {
+    color: pink;
+  }
+  
+  .red {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    padding: 20px;
+    padding-top:100px;
+    padding: 20px 20px 20px 20px;
+    padding: 20px 0px;
+    margin: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: pink;
+    border: 2px dashed red;
+    /*div는 블럭레벨의 element기 때문에 그냥 이렇게 설정하면 적용되지 않음. 버튼이나 영역 크기 지정이 필요*/
+  }
+  
+  button:hover {
+    color: red;
+    background: beige;
+  }
+  
+  a[href$=".com"] {
+    color: purple;
+  }
+  
+  
